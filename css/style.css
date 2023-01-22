@@ -115,7 +115,7 @@ a {
 .c-logo {
   height: 35px;
   width: 35px;
-  background-image: url("../../image/logo.png");
+  background-image: url("../image/logo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -203,13 +203,13 @@ a {
   background-size: contain;
 }
 .c-icon-link--facebook {
-  background-image: url("../../image/facebook.png");
+  background-image: url("../image/facebook.png");
 }
 .c-icon-link--twitter {
-  background-image: url("../../image/twitter.png");
+  background-image: url("../image/twitter.png");
 }
 .c-icon-link--instagram {
-  background-image: url("../../image/instagram.png");
+  background-image: url("../image/instagram.png");
 }
 
 .c-menu-icon {
