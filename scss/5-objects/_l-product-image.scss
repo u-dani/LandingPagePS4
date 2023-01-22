@@ -1,0 +1,16 @@
+
+@use '../2-tools/mixins';
+
+.l-product-image {
+    @include mixins.flex-center;
+    flex: 1;
+    justify-content: flex-start;
+    padding-right: 10px;
+    position: relative;
+    width: 60%;
+
+    &__img {
+        min-width: 350px;
+        width: 70%;
+    }
+}

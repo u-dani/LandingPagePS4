@@ -1,0 +1,23 @@
+
+.c-icon-link {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    background: {
+        position: center;
+        repeat: no-repeat;
+        size: contain;
+    };
+
+    &--facebook {
+        background-image: url('../../image/facebook.png');
+    }
+
+    &--twitter {
+        background-image: url('../../image/twitter.png');
+    }
+
+    &--instagram {
+        background-image: url('../../image/instagram.png');
+    }
+}

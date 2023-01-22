@@ -1,0 +1,9 @@
+
+@use '../1-settings/variables' as *;
+@use '../2-tools/mixins';
+
+.l-main {
+    @include mixins.flex-center;
+    justify-content: space-between;
+    width: 100%;
+}

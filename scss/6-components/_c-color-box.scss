@@ -1,0 +1,16 @@
+
+@use '../1-settings/variables' as *;
+
+.c-color-box {
+    background-image: linear-gradient(0deg, $primary-bg-color, $second-bg-color);
+    border-bottom-left-radius: 15px ;
+    border-top-left-radius: 15px ;
+    color: $second-color;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70%;
+    z-index: -1;
+}

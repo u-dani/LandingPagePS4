@@ -1,0 +1,11 @@
+
+@use '../1-settings/variables' as *;
+
+.l-footer {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    height: 50px;
+    justify-content: center;
+    padding: $padding-global;
+}

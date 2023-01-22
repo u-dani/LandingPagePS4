@@ -1,0 +1,12 @@
+
+@use '../1-settings/variables' as *;
+@use '../2-tools/mixins';
+
+.l-header {
+    @include mixins.flex-center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: $max-width;
+    padding: $padding-global;
+    width: 100%;
+}

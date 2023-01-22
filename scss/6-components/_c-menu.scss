@@ -1,0 +1,22 @@
+
+@use '../1-settings/variables' as *;
+
+.c-menu {
+    width: 500px;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+
+        &__item__link {
+            color: $second-color;
+            font-family: sans-serif;
+            font-size: $font-size-tiny;
+            letter-spacing: 1px;
+
+            &:hover {
+                color: $accent-color;
+            }
+        }
+    }
+}

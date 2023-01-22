@@ -1,0 +1,50 @@
+
+@use '../1-settings/variables' as *;
+
+.l-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 0;
+    padding: 0 8%;
+
+    &__hgroup {
+        display: flex;
+        flex-direction: column;
+        font-size: 100%;
+        gap: 10px;
+        position: relative;
+
+        &::before {
+            background-color: #e94e33;
+            background-image: linear-gradient(0deg, #e94e33, #FF5ACD);
+            content: "";
+            height: 100%;
+            left: -30px;
+            position: absolute;
+            top: 0;
+            width: 5px;
+        }
+
+        .main-title {
+            font-size: $font-size-large;
+        }
+
+        .second-title {
+            color: $third-color;
+            font-size: $font-size-medium;
+            font-weight: normal;
+        }
+
+        .third-title {
+            color: lighten($color: $third-color, $amount: 20);
+            font-size: $font-size-tiny;
+            font-weight: lighter;
+        }
+    }
+
+    .price {
+        font-size: $font-size-small;
+        font-weight: bold;
+    }
+}
